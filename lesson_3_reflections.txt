@@ -12,24 +12,39 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    Because I can choose when it's relevant for others or not. I can also
+    make small peaces of commits in my local repository without breaking
+    anything on the remote directory, until I choose to push all of these
+    at the same time.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Fork is used when you want to make changes on someone else's project
+    without impacting the person's project it self.
+    Clone is when you want to "download" a project from a remote repository
+    to your local repository to work offline with your computer's tools.
+    You create a Branch when you want to separate momentarily one path of the
+    project from the main path in order to be able to make commits without disturbing
+    the main path. Also, you may want to create a definitive branch to from the main path
+    in order to make two things different in the same project that share the a lot of
+    the same.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    It may reduce the probabilitty of getting into conflicts creating the necessity
+    of making merges.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    We could exchange files with people by e-mail for example. It would be fast to get started.
+    But it would be a mess for large projects and to track changes. In other words, we wouldn't
+    have the whole bunch of features provided by Git.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When you want to try something out. Or maybe commit somethings that can break temporarily
+    the code. When you want to work without disturbing or being disturbed by others.
